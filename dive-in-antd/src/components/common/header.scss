@@ -12,8 +12,11 @@
   padding: 15px 0;
 
   .ant-menu {
+    background-color: inherit;
+    border: inherit;
     li {
       text-transform: capitalize;
+      font-size: 1.6rem;
     }
   }
 }
@@ -22,4 +25,8 @@
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
+  i {
+    color: blue;
+    font-size: 3rem;
+  }
 }

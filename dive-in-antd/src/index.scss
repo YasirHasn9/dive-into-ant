@@ -21,7 +21,8 @@ body {
 }
 
 .mainLayout .ant-layout-header {
-  background: #f8f8f8;
+  background: #f8f8f888;
+  // background: #f8f8f8;
   padding: 0;
   height: auto;
   line-height: 1.6;
@@ -33,6 +34,8 @@ p {
 }
 
 .ant-layout-header {
+  // because of this fixed position , we cant see the content for now
+
   position: fixed;
   left: 0;
   right: 0;

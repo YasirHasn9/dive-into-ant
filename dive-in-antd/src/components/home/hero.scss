@@ -1,0 +1,54 @@
+.heroBlock {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#f8f8f8e5, 0.7),
+      rgba(#f8f8f89a, 0.2)
+    ),
+    url("../../assests/images/hero-1.jpg");
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+
+  .container-fluid {
+    display: block !important;
+  }
+  .ant-carousel {
+    height: 100%;
+    div {
+      height: 100%;
+    }
+  }
+  .slick-dots li button {
+    background: #000 !important;
+  }
+  .slick-dots li.slick-active button {
+    background: #1890ff !important;
+  }
+  .content {
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 7rem;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 30px;
+  }
+  p {
+    margin: 0 0 3rem;
+  }
+  .btnHolder {
+    height: auto !important;
+    button {
+      margin-right: 1rem;
+      border-radius: 2rem;
+    }
+  }
+}
+
+.heroBlock .heroBlock .heroBlock .heroBlock .btnHolder button,
+.heroBlock .btnHolder .fas {
+  margin: 0 1rem 0 0;
+}

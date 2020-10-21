@@ -1,7 +1,8 @@
 import React from "react"
 import AppHeader from "./components/common/Header"
+import AppHome from "./view/Home"
 import {Layout , Menu} from "antd";
-const {Header } = Layout
+const {Header , Content} = Layout
 const App = () => {
     return (
        
@@ -9,6 +10,10 @@ const App = () => {
                 <Header>
                     <AppHeader />
                 </Header>
+                    <Content>
+                       <AppHome />
+                    </Content>
+                
             </Layout>
     )
 }

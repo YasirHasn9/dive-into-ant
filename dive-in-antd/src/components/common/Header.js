@@ -6,7 +6,7 @@ const AppHeader = () => {
     return (
         <div className="container-fluid">
             <div className="header">
-                    <div className="logo">logo</div>
+                    <div className="logo"><i class="fas fa-code-branch"></i></div>
                     {/* the defaultSelectedKeys is selecting which one of the items should the selected default
                     we want the home item be selected  */}
                     <Menu className="ant-menu"  mode="horizontal" defaultSelectedKeys={['Home']} >
