@@ -1,5 +1,5 @@
 import React from "react";
-import "./hero.scss"
+
 import { Carousel , Button} from 'antd';
 const contentStyle = {
     height: '160px',
