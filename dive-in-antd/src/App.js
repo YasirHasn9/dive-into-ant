@@ -1,8 +1,9 @@
 import React from "react"
 import AppHeader from "./components/common/Header"
+import AppFooter from "./components/common/footer"
 import AppHome from "./view/Home"
 import {Layout } from "antd";
-const {Header , Content} = Layout
+const {Header , Content, Footer} = Layout
 const App = () => {
     return (
        
@@ -16,7 +17,10 @@ const App = () => {
                     <Content>
                        <AppHome />
                     </Content>
-                
+
+                    <Footer>
+                        <AppFooter />
+                    </Footer>
             </Layout>
     )
 }

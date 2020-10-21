@@ -1,6 +1,5 @@
 import React from "react"
 import { List, Card , Button } from 'antd';
-import Item from "antd/lib/list/Item";
 
 const data = [
     {

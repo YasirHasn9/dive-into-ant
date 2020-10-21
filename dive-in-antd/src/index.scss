@@ -75,7 +75,9 @@ p {
     }
   }
 }
+
 @import "./components/common/header.scss";
+@import "./components/common/footer.scss";
 @import "./components/home/hero.scss";
 @import "./components/home/about.scss";
 @import "./components/home/features.scss";
