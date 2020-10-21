@@ -12,42 +12,42 @@ const AppFeature = () => {
                         cu eam tation fabulas</p>
                 </div>
                 <Row gutter={[16,16]}>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1} />}>
                             <Meta title="Title is here" />
                         </Card>
                     </Col>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1} />}>
                             <Meta title="Title is here" />
                         </Card>
                     </Col>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1}/>}>
                             <Meta title="Title is here" />
                         </Card>
                     </Col>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1} />}>
                             <Meta title="Title is here" />
                         </Card>
                     </Col>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1} />}>
                             <Meta title="Title is here" />
                         </Card>
                     </Col>
-                    <Col span={8}>  
+                    <Col xs={{span:24}} md={{span:8}} sm={{span:12}}>  
                         <Card
                             hoverable
                             cover={<img alt="example" src={Image1} />}>

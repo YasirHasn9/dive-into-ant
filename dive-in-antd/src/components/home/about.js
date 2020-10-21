@@ -52,7 +52,8 @@ const AppAbout = () => {
                                 // span = 12 then the grid is 2 boxes 
                                 // span = 4 then the grid is 6 boxes 
                                 // span = 6 then the grid is 4 boxes 
-                                <Col span={8} key={item.key}>
+                                <Col 
+                                md={{span:5, offset:1}} key={item.key}>
                                     <div className="content">
                                         <div className="icon">
                                             {item.icon}
