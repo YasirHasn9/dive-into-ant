@@ -28,8 +28,6 @@ const AppAbout = () => {
                 <div className="titleHolder">
                     <h2>About Us</h2>
                     <p>Work better together. Schedule meetings</p>
-      {/* 
-       </p> */}
                 </div>
                 <div  className="contentHolder">
                     <p >
@@ -43,10 +41,17 @@ const AppAbout = () => {
                         cu eam tation fabulas aabulas aas abhorreant. His ex mandamus.
                     </p>
                 </div>
+                {/* ant provides a responsive grid system 
+                the gutter here represents the margin and between col and top */}
                 <Row gutter={[16, 16]}>
                     {
                         items.map(item => {
                             return (
+                                // the gird system is represented by 24 where each span is box 
+                                // span = 8 then the grid is 3 boxes 
+                                // span = 12 then the grid is 2 boxes 
+                                // span = 4 then the grid is 6 boxes 
+                                // span = 6 then the grid is 4 boxes 
                                 <Col span={8} key={item.key}>
                                     <div className="content">
                                         <div className="icon">

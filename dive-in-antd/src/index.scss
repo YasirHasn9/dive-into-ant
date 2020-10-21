@@ -17,7 +17,14 @@ body {
 @import "./components/common/header.scss";
 @import "./components/home/hero.scss";
 @import "./components/home/about.scss";
+@import "./components/home/features.scss";
 
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 144rem;
+  padding: 0 1.5rem;
+}
 .ant-layout {
   background: #fff !important;
 }
@@ -42,4 +49,34 @@ p {
   left: 0;
   right: 0;
   z-index: 999;
+  box-shadow: 0 0.4rem 1rem gray;
+}
+
+.bgGray {
+  background: #fafafa;
+}
+.block {
+  padding: 7rem 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 2rem;
+  margin: 0 0 4rem;
+  h2 {
+    font-size: 2.8rem;
+    margin: 0;
+    &:after {
+      transform: translateX(-50%);
+      content: "";
+      background: #1890ff;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      height: 3px;
+      width: 60%;
+    }
+  }
 }

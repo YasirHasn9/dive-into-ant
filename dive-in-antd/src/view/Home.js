@@ -7,12 +7,14 @@ like hero , about , features
 import React from "react"
 import AppHero from "../components/home/hero"
 import AppAbout from "../components/home/about"
+import AppFeatures from "../components/home/features"
 
 const AppHome = () => {
     return (
         <div className="main">
              <AppHero />
              <AppAbout />
+             <AppFeatures />
         </div>
     )
 }
