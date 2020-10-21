@@ -9,6 +9,8 @@ import AppHero from "../components/home/hero"
 import AppAbout from "../components/home/about"
 import AppFeatures from "../components/home/features"
 import AppWorks from "../components/home/works"
+import AppFaq from "../components/home/faq"
+import AppPricing from "../components/home/pricing"
 
 const AppHome = () => {
     return (
@@ -17,6 +19,8 @@ const AppHome = () => {
              <AppAbout />
              <AppFeatures />
              <AppWorks />
+             <AppFaq />
+             <AppPricing />
         </div>
     )
 }
