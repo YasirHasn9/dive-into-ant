@@ -11,6 +11,7 @@ import AppFeatures from "../components/home/features"
 import AppWorks from "../components/home/works"
 import AppFaq from "../components/home/faq"
 import AppPricing from "../components/home/pricing"
+import AppContact from "../components/home/contact"
 
 const AppHome = () => {
     return (
@@ -21,6 +22,7 @@ const AppHome = () => {
              <AppWorks />
              <AppFaq />
              <AppPricing />
+             <AppContact />
         </div>
     )
 }
