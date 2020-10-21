@@ -14,11 +14,6 @@ body {
   box-sizing: border-box;
 }
 
-@import "./components/common/header.scss";
-@import "./components/home/hero.scss";
-@import "./components/home/about.scss";
-@import "./components/home/features.scss";
-
 .container-fluid {
   margin: 0 auto;
   width: 100%;
@@ -80,3 +75,8 @@ p {
     }
   }
 }
+@import "./components/common/header.scss";
+@import "./components/home/hero.scss";
+@import "./components/home/about.scss";
+@import "./components/home/features.scss";
+@import "./components/home/works.scss";

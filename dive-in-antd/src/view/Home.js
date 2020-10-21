@@ -8,6 +8,7 @@ import React from "react"
 import AppHero from "../components/home/hero"
 import AppAbout from "../components/home/about"
 import AppFeatures from "../components/home/features"
+import AppWorks from "../components/home/works"
 
 const AppHome = () => {
     return (
@@ -15,6 +16,7 @@ const AppHome = () => {
              <AppHero />
              <AppAbout />
              <AppFeatures />
+             <AppWorks />
         </div>
     )
 }
