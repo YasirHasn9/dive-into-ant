@@ -46,7 +46,7 @@ const data = [
 const PricingApp = () => {
     return (
 
-        <div  className="block pricingBlock bgGray">
+        <div id="pricing"  className="block pricingBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Our Plans</h2>

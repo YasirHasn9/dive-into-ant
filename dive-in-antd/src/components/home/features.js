@@ -4,7 +4,7 @@ import Image1 from "../../assets/images/hero.jpeg"
 const {Meta} = Card
 const AppFeature = () => {
     return (
-        <div className="block featureBlock bgGray">
+        <div id="feature" className="block featureBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>Features and Benefits</h2>
