@@ -39,7 +39,7 @@ class AppWorks extends  React.Component {
           onCancel={this.handleCancel}
           footer={null}
         >
-            <iframe width="100%" height="350" src="https://www.youtube.com/watch?v=Bs4ZODVvHsQ"></iframe>
+            <iframe title="YouTube video about how to use Ant design" width="100%" height="350" src="https://www.youtube.com/watch?v=Bs4ZODVvHsQ"></iframe>
         </Modal>
                 </div>
             </div>

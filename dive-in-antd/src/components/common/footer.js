@@ -11,10 +11,10 @@ const AppFooter = () => {
                 <i className="fas fa-code-branch"></i>
                 </div>
                 <ul className="socials">
-                <li><a href="#"><i className="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i className="fab fa-instagram-square"></i></a></li>
-                <li><a href="#"><i className="fab fa-twitter-square"></i></a></li>
-                <li><a href="#"><i className="fab fa-linkedin"></i></a></li> 
+                <li><a href="https://www.facebook.com/"><i className="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i className="fab fa-instagram-square"></i></a></li>
+                <li><a href="https://twitter.com/home"><i className="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yasir-hassan-2b2848189/"><i className="fab fa-linkedin"></i></a></li> 
             </ul>
             <BackTop>
                 <div className="goTop">

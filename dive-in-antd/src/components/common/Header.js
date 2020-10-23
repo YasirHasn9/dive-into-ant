@@ -15,7 +15,8 @@ const AppHeader = () => {
     return (
         <div className="container-fluid">
             <div className="header">
-                    <div className="logo"><i className="fas fa-code-branch"></i></div>
+                    <div className="logo">
+                       <i className="fas fa-code-branch"></i></div>
                     {/* the defaultSelectedKeys is selecting which one of the items should the selected default
                     we want the home item be selected  */}
                     <div className="mobileHidden">
