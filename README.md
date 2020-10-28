@@ -33,5 +33,5 @@ we are gonna use sass
 npm install node-sass
 
 
-$ the final look of what we have built
+<h1>the final look of what we have built</h1>
 https://dive-into-ant.vercel.app
