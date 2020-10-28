@@ -34,4 +34,4 @@ npm install node-sass
 
 
 <h1>the final look of what we have built</h1>
-<a href="https://dive-into-ant.vercel.app"> dive into ant design</a>
+<a target="_blank" href="https://dive-into-ant.vercel.app"> dive into ant design</a>
